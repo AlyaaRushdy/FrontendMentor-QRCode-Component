@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+
+/* || VARIABLES DECLERATION */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --border-radius: 15px;
+  --padding: 1rem;
+}
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* || GENERAL STYLING */
+body {
+  height: 100vh;
+  font-family: outfit, fantasy;
+  font-weight: 400;
+  text-align: center;
+
+  background-image: linear-gradient(
+    to bottom right,
+    var(--Light-gray),
+    var(--white)
+  );
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: clamp(17rem, 40vw, 20rem);
+  background-color: var(--white);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  box-shadow: 2px 2px 15px rgba(51, 51, 51, 0.35);
+}
+
+.main__img {
+  border-radius: var(--border-radius);
+  margin-bottom: var(--padding);
+}
+.main__h3 {
+  font-weight: 700;
+  color: var(--Dark-blue);
+  margin-bottom: var(--padding);
+}
+.main__p {
+  font-size: 15px;
+  color: var(--Grayish-blue);
+  margin-bottom: var(--padding);
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  font-size: 11px;
+}
+.footer__a {
+  color: hsl(228, 45%, 44%);
+}
