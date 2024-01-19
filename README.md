@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobilefirst-responsive-solution-using-css-flexbox-fkHY3bcsB0)
 - Live Site URL: [Netlify](https://glowing-gaufre-9044da.netlify.app/)
 
 ## My process
